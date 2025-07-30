@@ -1,6 +1,6 @@
 [package]
 name = "mediaparser"
-version = "0.1.9"
+version = "1.0.0"
 edition = "2021"
 description = "High-performance media file parser with streaming support for MP4, thumbnails, subtitles, and metadata extraction"
 keywords = ["media", "parser", "mp4", "video", "thumbnails", "subtitles", "metadata", "streaming", "h264", "ffmpeg"]
