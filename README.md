@@ -2,19 +2,19 @@
 
 A high-performance Rust library for intelligent extraction of thumbnails, subtitles, and metadata from MP4 video files. Designed for both local and remote file processing with optimized streaming capabilities.
 
-## 🎯 Key Features
+##  Key Features
 
-- **🖼️ Thumbnail Extraction**: Keyframe-only processing with H.264 decoding
-- **📝 Subtitle Extraction**: Multi-format support (TX3G, WebVTT, TTML) with SRT output
-- **📊 Comprehensive Metadata**: Container analysis with stream information
-- **🌐 Remote File Support**: HTTP range requests for efficient streaming
-- **⚡ Performance Optimized**: Minimal memory usage and strategic data downloading
-- **🔧 Format Detection**: Automatic container format identification
+- ** Thumbnail Extraction**: Keyframe-only processing with H.264 decoding
+- ** Subtitle Extraction**: Multi-format support (TX3G, WebVTT, TTML) with SRT output
+- ** Comprehensive Metadata**: Container analysis with stream information
+- ** Remote File Support**: HTTP range requests for efficient streaming
+- ** Performance Optimized**: Minimal memory usage and strategic data downloading
+- ** Format Detection**: Automatic container format identification
 
-## 📋 Supported Formats
+## Supported Formats
 
 ### Container Formats
-- **MP4 Family**
+-- **MP4 Family** (ISO/IEC 14496-12)
 
 ### Video Codecs
 - **H.264/AVC** (with OpenH264 decoder)
@@ -26,7 +26,7 @@ A high-performance Rust library for intelligent extraction of thumbnails, subtit
 - **TTML** (Timed Text Markup Language)
 - **Generic UTF-8/UTF-16** fallback
 
-## 🚀 Quick Start
+## Quick Start
 
 Add to your `Cargo.toml`:
 ```toml
@@ -89,9 +89,9 @@ for entry in subtitles {
 }
 ```
 
-## 🏗️ Architecture
+## Architecture
 
-## 🔧 MP4 Container Navigation
+## MP4 Container Navigation
 
 ```
 moov/                          # Movie container
@@ -115,7 +115,13 @@ moov/                          # Movie container
     ├── ©ART                 # Artist
     └── ©alb                 # Album
 ```
-## 📖 Documentation
+## Test Assets Attribution
+
+The test video "Big Buck Bunny" (`tests/testdata/big_buck_bunny.mp4`) is © copyright 2008, Blender Foundation / www.bigbuckbunny.org
+Licensed under the Creative Commons Attribution 3.0 license.
+[https://creativecommons.org/licenses/by/3.0/](https://creativecommons.org/licenses/by/3.0/)
+
+## Documentation
 
 TODO: Each module includes comprehensive documentation:
 - **`src/mp4/doc.md`**: TODO
